@@ -4,8 +4,12 @@ This tap distributes the open-source [`gyro` CLI](https://github.com/wytzeh197/G
 
 ```bash
 brew tap wytzeh197/tap
+brew trust --formula wytzeh197/tap/gyro
 brew install gyro
 ```
+
+The trust command approves only Gyro's Formula, not every present or future
+Formula in the tap.
 
 Verify the installation with `gyro --version` and `gyro doctor --json`.
 
