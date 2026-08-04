@@ -1,18 +1,18 @@
 class Gyro < Formula
   desc "Open-source local-first coding agent workspace CLI"
   homepage "https://github.com/wytzeh197/Gyro"
-  version "0.1.0-alpha.34.3"
+  version "0.1.0-alpha.34.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/wytzeh197/Gyro/releases/download/v#{version}/gyro-cli-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "29e0f0bc491a4f090845ca702b8e01825afc5df5d95bd5cf7df40c4b692c8e43"
+      sha256 "eb446bb4eacb5789a77ee03d703015e1ac169f4c83fcdfd225423e0fc547f74e"
     end
 
     on_intel do
       url "https://github.com/wytzeh197/Gyro/releases/download/v#{version}/gyro-cli-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "332ec4b86a615592bd9e0946d430e526f1d81bfacdeb14f0d79740d5cb9a661e"
+      sha256 "d0b3f0fed0227a49d3fe54c7c01450258359f1ee1df4437e57a59e0fa7788430"
     end
   end
 
